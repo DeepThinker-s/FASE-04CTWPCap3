@@ -39,15 +39,11 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 - **assets**: Aqui estão os arquivos relacionados a elementos não-estruturados deste repositório, como imagens. Contém o logo da FIAP e **capturas de tela das execuções do Google Colab**, incluindo resultados dos modelos, gráficos de análise exploratória e matrizes de confusão.
 
-- **config**: Arquivos de configuração que são usados para definir parâmetros e ajustes do projeto.
-
 - **document**: Aqui estão todos os documentos do projeto.
   - `FASE_04_CTWP_Cap3.ipynb`: Notebook desenvolvido no Google Colab com todo o desenvolvimento do projeto, incluindo análise exploratória, pré-processamento, treinamento dos modelos e avaliação.
   - `other/seeds_dataset.txt`: Dataset "Seeds" utilizado como base para a classificação das variedades de trigo.
 
-- **scripts**: Scripts auxiliares para tarefas específicas do projeto.
-
-- **src**: Todo o código fonte criado para o desenvolvimento do projeto.
+- **src**: Todo o código fonte criado para o desenvolvimento do projeto está presente em documents, não sendo necessária uma pasta src.
 
 - **README.md**: Arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
 
