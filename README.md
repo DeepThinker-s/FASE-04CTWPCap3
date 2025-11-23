@@ -28,14 +28,11 @@ A solução foi desenvolvida inteiramente em um **Jupyter Notebook**, cobrindo:
 5.  **Evaluation**: Comparação de métricas e otimização via GridSearchCV.
 
 ## 📁 Estrutura de pastas
-Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
-- **assets**: aqui estão os arquivos relacionados a elementos não-estruturados deste repositório, como imagens.
-- **config**: Posicione aqui arquivos de configuração que são usados para definir parâmetros e ajustes do projeto.
-- **document**: aqui estão todos os documentos do projeto que as atividades poderão pedir. Na subpasta "other", adicione documentos complementares e menos importantes.
-- **scripts**: Posicione aqui scripts auxiliares para tarefas específicas do seu projeto.
-- **src**: Todo o código fonte criado para o desenvolvimento do projeto ao longo das 7 fases.
-- **README.md**: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
+- **document**: Contém os arquivos principais do projeto.
+  - `FASE_04_CTWP_Cap3.ipynb`: Jupyter Notebook com todo o desenvolvimento do projeto, incluindo análise exploratória, pré-processamento, treinamento dos modelos e avaliação.
+  - `other/seeds_dataset.txt`: Dataset "Seeds" utilizado como base para a classificação das variedades de trigo.
+- **README.md**: Guia geral do projeto, contendo informações sobre a equipe, descrição do problema, instruções de instalação e execução.
 
 ## 🔧 Como executar o código
 
@@ -46,8 +43,8 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 ### Instalação Local
 1. Clone o repositório e acesse a pasta:
    ```bash
-   git clone <seu-repo>
-   cd <seu-repo>
+   git clone https://github.com/DeepThinker-s/FASE-04CTWPCap3
+   cd FASE-04CTWPCap3
    ```
 2. Crie um ambiente virtual (recomendado):
    ```bash
