@@ -45,7 +45,12 @@ A solução foi desenvolvida inteiramente no **Google Colab**, cobrindo:
 1. Acesse diretamente o notebook desenvolvido:
    **[🔗 Abrir no Google Colab](https://colab.research.google.com/drive/1MbXqdZnDqo-dALECVbeiq_DByqRqL7Gu?usp=sharing)**
 
-2. Execute todas as células sequencialmente para reproduzir a análise completa.
+2. **Importante**: Faça upload do dataset `seeds_dataset.txt`:
+   - No Colab, clique no ícone de pasta (📁) no painel lateral esquerdo
+   - Clique em "Upload" e selecione o arquivo `document/other/seeds_dataset.txt` do repositório
+   - Aguarde o upload ser concluído antes de executar as células
+
+3. Execute todas as células sequencialmente para reproduzir a análise completa.
 
 ### Instalação Local (Alternativa)
 1. Clone o repositório e acesse a pasta:
