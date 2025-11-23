@@ -23,6 +23,9 @@ Grupo 4 - DeepThinkers
 ### Coordenador
 - André Godoi Chiovato
 
+## Link Github
+Repositório: https://github.com/DeepThinker-s/FASE-04CTWPCap3
+
 ## 📜 Descrição
 Em cooperativas agrícolas de pequeno porte, a classificação de grãos é realizada manualmente por especialistas, processo sujeito a erros e demorado. Este projeto aplica a metodologia **CRISP-DM** para automatizar a classificação de variedades de trigo (Kama, Rosa, Canadian) com base no “Seeds Dataset” (UCI).
 
