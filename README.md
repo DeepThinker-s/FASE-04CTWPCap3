@@ -1,11 +1,17 @@
 # FIAP - Faculdade de Informática e Administração Paulista
 
+<p align="center">
+<a href= "https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=40% height=40%></a>
+</p>
+
+<br>
+
 # Cap 3 – (IR ALÉM) Implementando Algoritmos de Machine Learning com Scikit-learn (Seeds)
 
-### Nome do grupo
+## Nome do grupo
 Grupo 4 - DeepThinkers
 
-### Integrantes
+## 👨‍🎓 Integrantes: 
 - André Pessoa Gaidzakian – RM567877
 - Erick Prados Pereira – RM566833
 - Guilherme Ferreira Santos – RM568523
@@ -29,10 +35,21 @@ A solução foi desenvolvida inteiramente no **Google Colab**, cobrindo:
 
 ## 📁 Estrutura de pastas
 
-- **document**: Contém os arquivos principais do projeto.
+Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
+
+- **assets**: Aqui estão os arquivos relacionados a elementos não-estruturados deste repositório, como imagens. Contém o logo da FIAP e **capturas de tela das execuções do Google Colab**, incluindo resultados dos modelos, gráficos de análise exploratória e matrizes de confusão.
+
+- **config**: Arquivos de configuração que são usados para definir parâmetros e ajustes do projeto.
+
+- **document**: Aqui estão todos os documentos do projeto.
   - `FASE_04_CTWP_Cap3.ipynb`: Notebook desenvolvido no Google Colab com todo o desenvolvimento do projeto, incluindo análise exploratória, pré-processamento, treinamento dos modelos e avaliação.
   - `other/seeds_dataset.txt`: Dataset "Seeds" utilizado como base para a classificação das variedades de trigo.
-- **README.md**: Guia geral do projeto, contendo informações sobre a equipe, descrição do problema, instruções de instalação e execução.
+
+- **scripts**: Scripts auxiliares para tarefas específicas do projeto.
+
+- **src**: Todo o código fonte criado para o desenvolvimento do projeto.
+
+- **README.md**: Arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
 
 ## 🔧 Como executar o código
 
@@ -51,6 +68,15 @@ A solução foi desenvolvida inteiramente no **Google Colab**, cobrindo:
    - Aguarde o upload ser concluído antes de executar as células
 
 3. Execute todas as células sequencialmente para reproduzir a análise completa.
+
+### 📸 Evidências de Execução
+Para consulta e verificação, todas as **capturas de tela dos resultados** estão disponíveis na pasta `assets/`, incluindo:
+- Carregamento e análise do dataset
+- Estatísticas descritivas e visualizações
+- Resultados dos modelos baseline
+- Otimização de hiperparâmetros com GridSearchCV
+- Matrizes de confusão dos modelos otimizados
+- Comparação final entre modelos baseline vs otimizados
 
 ### Instalação Local (Alternativa)
 1. Clone o repositório e acesse a pasta:
@@ -113,6 +139,7 @@ A metodologia CRISP-DM provou ser eficaz na estruturação do projeto, desde o e
 - 0.1.0 - 23/11/2025
 
 ## 📋 Licença
-[MODELO GIT FIAP](https://github.com/agodoi/template) por [Fiap](https://fiap.com.br/) está licenciado sobre [Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1).
+
+<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/agodoi/template">MODELO GIT FIAP</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://fiap.com.br">Fiap</a> está licenciado sobre <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
 
 Este projeto utiliza o [Seeds Dataset](https://archive.ics.uci.edu/dataset/149/seeds) (CC BY 4.0).
